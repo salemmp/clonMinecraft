@@ -1,0 +1,99 @@
+.flex-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 400px;
+}
+.flex-container-primario{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100px;
+}
+.flex-container-primario img{
+    width: 36px;
+    height: 26px;
+}
+.flex-container-primario img:hover{
+    cursor:pointer;
+}
+.footer-imagenes{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 30%;
+}
+.flex-container-secundario{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.flex-container-studios{
+    font-size: 12px;
+}
+.flex-container-studios img{
+width: 120px;
+height: 120px;
+}
+ .xbox-studio{
+margin-left: 110px;
+width: 203px;
+height: 111px;
+}
+.flex-container-studios a{
+    text-decoration: none;
+    color: greenyellow;
+}
+.flex-container-final{
+    background-color: blue;
+}
+.flex-container-indice{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    padding: 5px;
+}
+.flex-container-indice-segundo{
+    width: 100px;
+    flex-wrap: wrap;
+    background-color: azure;
+}
+.footer-indice-titulo{
+    font-size: 16px;
+}
+.flex-container-indice ul li,.flex-container-indice-segundo ul li{
+    margin-left: 5px;
+    padding: 2px;
+    font-size: 10px;
+    list-style: none;
+}
+.flex-container-indice ul li a,.flex-container-indice-segundo ul li a{
+    text-decoration: none;
+    color: greenyellow;
+    transition: .3s all;
+}
+.flex-container-indice ul li a:hover{
+
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.flex-container-indice-segundo ul li a:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.flex-container-indice-segundo{
+    display: flex;
+    background-color: black;
+}
+.container-studios-info a{
+    transition: .2s all;
+}
+.container-studios-info a:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
